@@ -1,0 +1,594 @@
+* {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  background-color: #181818;
+  display: flex;
+  padding: 1% 2% 1% 2%;
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  img {
+    display: none;
+  }
+  #logo {
+    width: 20%;
+    margin-left: 3%;
+  }
+  span {
+    color: #92e3a9;
+  }
+  #navItem {
+    width: 70%;
+    margin-left: 45%;
+  }
+  ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+    padding: 0%;
+  }
+}
+
+.container1 {
+  padding-top: 6%;
+  padding-bottom: 6%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #181818;
+  //checking
+  .tagLine {
+    margin-left: 6%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    #label1 {
+      font-weight: bolder;
+      font-size: 2.8rem; //tablet
+      // font-size: 4rem;//laptop
+    }
+    #label2 {
+      font-weight: bolder;
+      font-size: 1rem;
+    }
+  }
+  .danceImage {
+    margin-right: 6%;
+    position: relative;
+    width: 40%;
+    img {
+      margin-top: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.container2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-color: #181818;
+  #heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+  #motherDiv {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 25%;
+    #div1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    label {
+      margin-top: 20%;
+      color: white;
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.container3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-color: #181818;
+  color: white;
+  #heading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+  #motherDiv {
+    background-color: #181818;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    column-gap: 10%;
+    justify-content: center;
+    margin-top: 10%;
+
+    #div1 {
+      width: 18%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #181818;
+      //
+      border-radius: 8%;
+      box-shadow: 0px 7px 7px rgba(166, 160, 160, 0.25);
+      background-color: #bdd4e7;
+      background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+      #label1 {
+        background-color: #181818;
+        color: white;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 7%;
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+        font-weight: bolder;
+      }
+      ul {
+        // width: 100%;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        margin: 5%;
+        li {
+          margin-bottom: 10%;
+        }
+      }
+      #label2 {
+        background-color: #181818;
+        color: white;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+        font-weight: bolder;
+      }
+    }
+    #div2 {
+      width: 18%;
+      background-color: #2b2a2a;
+      color: #181818;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      //
+      border-radius: 8%;
+      box-shadow: 0px 7px 7px rgba(229, 147, 32, 0.25);
+      background-color: #ef5734;
+      background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+      #label3 {
+        background-color: #181818;
+        color: white;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 7%;
+        margin-bottom: 5%;
+        // background-color: #181818;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bolder;
+      }
+      ul {
+        font-size: 1.3rem;
+        font-weight: bolder;
+        // width: 100%;
+        margin: 5%;
+        li {
+          margin-bottom: 10%;
+        }
+      }
+      #label4 {
+        background-color: #181818;
+        color: white;
+        display: flex;
+        justify-content: center;
+        color: white;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+        font-weight: bolder;
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: #2b2a2a;
+  label {
+    font-size: 1.2rem;
+    margin-top: 3%;
+  }
+  #label1 {
+    text-decoration: underline;
+    text-decoration-color: #92e3a9;
+  }
+  #logo {
+    width: 50%;
+    color: white;
+    font-weight: bolder;
+    div {
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+    span {
+      color: #92e3a9;
+    }
+  }
+  #motherDiv {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    color: white;
+    #club {
+      margin-top: 3.5%;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+    #socialMedia {
+      margin-top: 3.5%;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+  }
+}
+
+/*
+The screen resolutions of different devices are listed below:
+
+Mobile (Smartphone) max-width: 480px
+Low Resolution Tablets and ipads max-width: 767px
+Tablets Ipads portrait mode max-width:1024px
+Desktops max-width:1280px
+Huge size (Larger screen) max-width: 1281px and greater
+
+*/
+//media queries
+
+@media screen and (max-width : 320px){
+  header{
+    height: 1em;
+    #logo{
+      margin-left: 0em;
+    }
+    #menu{
+      margin-right: .35em;
+    }
+  }
+  .container1{
+    font-size: .9em;
+    margin-left: 0em;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #181818;
+  }
+
+  header {
+    width: 100%;
+    font-size: 1.4em;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 9em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    nav {
+      right: 0;
+      top: 0;
+      width: 50%;
+      height: 100vh;
+      position: fixed;
+      text-transform: uppercase;
+      background-color: #2b2a2a;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in-out;
+      ul {
+        margin-top: 5em;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        padding-left: 1em;
+        height: 4em;
+        li {
+          margin-bottom: 1.5em;
+        }
+      }
+      img {
+        padding-left: 9em;
+        padding-top: 2em;
+      }
+    }
+    img {
+      display: inline;
+      width: 1.1em;
+      height: 1.1em;
+    }
+    #logo {
+      width: 4em;
+    }
+  }
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+    .tagLine {
+      margin-top: 3em;
+      width: 100%;
+      #label1 {
+        font-size: 2.5em;
+      }
+    }
+    .danceImage {
+      display: none;
+    }
+    #span1{
+      color: #5385e3;
+    }
+    #span2{
+      color: #d1df72;
+    }
+    #span3{
+      color: #f83c3c;
+    }
+    #span4{
+      color: #49efe9;
+    }
+  }
+
+  .container2 {
+    display: flex;
+    justify-content: center;
+    #heading {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 2em;
+    }
+    #motherDiv {
+      display: flex;
+      flex-direction: column;
+      #div1 {
+        margin-top: 10%;
+        // border : 1px solid red;
+        // background-color: #8693ab;
+        img {
+          // background-color: #92e3a9;
+          width: 7em;
+          margin-top: 4%;
+        }
+        label {
+          margin-top: 2%;
+          // background-color: #ef5734;
+        }
+      }
+    }
+  }
+
+  .container3 {
+    #motherDiv {
+      // background-color: #8693ab;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 4em;
+      #div1 {
+        width: 75%;
+      }
+      #div2 {
+        width: 75%;
+      }
+    }
+  }
+
+  footer {
+    #logo {
+      width: 30%;
+      div {
+        margin-top: 2em;
+      }
+    }
+    #motherDiv {
+      width: 70%;
+      font-size: x-small;
+      #club {
+        label {
+          font-size: 1.7em;
+        }
+      }
+      #socialMedia {
+        label {
+          font-size: 1.7em;
+        }
+      }
+    }
+  }
+
+  //createdClass
+  .open-nav {
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  body {
+    background-color: #181818;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    height: 1em;
+    padding-left: 0em;
+    #logo {
+      width: 7em;
+    }
+  }
+
+  .container2 {
+    #motherDiv {
+      column-gap: 16%;
+    }
+  }
+
+  .container3 {
+    #motherDiv {
+      #div1,
+      #div2 {
+        width: 34%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  body {
+    background-color: #181818;
+  }
+
+  .container1 {
+    font-size: 0.7em;
+  }
+
+  .container3 {
+    #motherDiv {
+      #div1,
+      #div2 {
+        width: 27%;
+      }
+    }
+  }
+}
+
+@media screen and (max-device-width: 1440px) and (min-device-width: 1024px) {
+  body {
+    background-color: #181818;
+  }
+  .container1 {
+    .tagLine {
+      #label1 {
+        font-size: 5em;
+      }
+      #label2 {
+        font-size: 2em;
+      }
+    }
+  }
+}
+/*
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+  body {
+    background-color: #181818;
+  }
+  header {
+    font-size: 3.5em;
+  }
+  .container1 {
+    .tagLine {
+      #label1 {
+        font-size: 7em;
+      }
+      #label2 {
+        font-size: 4em;
+      }
+    }
+  }
+
+  .container2 {
+    #heading {
+      font-size: 4em;
+    }
+    #motherDiv {
+      #div1 {
+        img {
+          width: 13em;
+        }
+        label {
+          font-size: 3em;
+        }
+      }
+    }
+  }
+  .container3 {
+    #heading {
+      font-size: 4em;
+    }
+    #motherDiv {
+      #div1 {
+        width: 25%;
+        #label1,
+        #label2 {
+          font-size: 3.5em;
+        }
+        ul {
+          font-size: 3em;
+        }
+      }
+      #div2 {
+        width: 25%;
+        #label3,
+        #label4 {
+          font-size: 3.5em;
+        }
+        ul {
+          font-size: 3em;
+        }
+      }
+    }
+  }
+  footer{
+    #logo, #motherDiv{
+      label{
+        font-size: 3em;
+      }
+    }
+  }
+}
+*/
